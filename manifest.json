@@ -1,8 +1,8 @@
 {
   "format_version": 2,
   "header": {
-    "description": "Hotbar Swapper BP with F Totem for MCPE 1.21.92",
-    "name": "Hotbar Swapper BP",
+    "description": "Inventory Swapper BP with F Totem for MCPE 1.21.92",
+    "name": "Inventory Swapper BP",
     "uuid": "11111111-1111-1111-1111-111111111111",
     "version": [1, 0, 0],
     "min_engine_version": [1, 21, 0]
