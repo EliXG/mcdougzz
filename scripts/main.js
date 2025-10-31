@@ -3,7 +3,7 @@ import { world } from "@minecraft/server";
 // Configuration
 const config = {
   slotA: 0,
-  slotB: 40,
+  slotB: 44,
   totemSlot: 36
 };
 
@@ -29,7 +29,7 @@ world.beforeEvents.itemUse.subscribe(event => {
     const currentItem = inv.getItem(i);
     if (currentItem?.typeId === "minecraft:totem") {
       inv.setItem(config.totemSlot, currentItem);
-      inv.setItem(i, undefined); // remove from original slot
+      inv.setItem(i, undefined); // remove original
       player.sendMessage(`§eMoved Totem to slot ${config.totemSlot + 1}!`);
       totemFound = true;
       break;
